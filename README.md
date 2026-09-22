@@ -24,5 +24,6 @@
 ├── lab3/ # MPI (в разработке)
 ├── lab4/ # CUDA (в разработке)
 │
+│── .gitignore
 └── README.md 
 ```
