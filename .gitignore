@@ -1,4 +1,3 @@
-
 *.exe
 *.out
 *.obj
@@ -10,7 +9,6 @@
 *.pdb
 *.ilk
 *.exp
-
 
 .vscode/
 .vs/
@@ -25,7 +23,6 @@ Makefile
 cmake_install.cmake
 *.cmake
 
-
 __pycache__/
 *.py[cod]
 *.pyc
@@ -34,17 +31,21 @@ venv/
 env/
 .pytest_cache/
 
-
 matrix_*.txt
 matrix_*.csv
 result_*.txt
 result_*.csv
 
-
+run_experiments.bat
+temp.txt
+temp.csv
 temp_*.txt
 temp_*.csv
 results_*.csv
 benchmark_*.csv
+
+
+*.bat
 
 
 .DS_Store
@@ -55,4 +56,4 @@ desktop.ini
 *.log
 *.bak
 *~
-*.swp"lab2/" 
+*.swp
