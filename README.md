@@ -30,12 +30,11 @@
 │
 ├── lab3/ # MPI 
 │ ├── main.cpp                 
-│ ├── verify.py                 
-│ ├── run_experiments.sh        
-│ ├── results_mpi.csv           
+│ ├── verify.py                           
 │ ├── graph_time_mpi.png       
 │ ├── graph_speedup_mpi.png     
 │ └── README.md  
+|
 ├── lab4/ # CUDA (в разработке)
 │
 │── .gitignore
