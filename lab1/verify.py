@@ -51,16 +51,11 @@ def verify(matrix_size):
         print(f"Максимальное расхождение: {max_diff}")
         print(f"Количество несовпадающих элементов: {len(error_indices[0])}")
         
-        print("Примеры ошибок (строка, столбец): C++ vs NumPy")
-        for i in range(min(5, len(error_indices[0]))):
-            r, c = error_indices[0][i], error_indices[1][i]
-            print(f"  [{r}][{c}]: {C_cpp[r][c]} vs {C_numpy[r][c]}")
-
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         size = int(sys.argv[1])
         verify(size)
     else:
-        print("Размер не указан. Проверяем 200x200 по умолчанию.")
+        print("Размер не указан. Проверка 200x200 по умолчанию.")
         print("Чтобы указать размер, запустите: python verify.py 400")
         verify(200)
